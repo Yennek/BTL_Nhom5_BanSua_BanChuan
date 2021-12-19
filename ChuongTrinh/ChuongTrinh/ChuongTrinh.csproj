@@ -90,9 +90,82 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\about.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\blog-details.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\blog-grid.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\blog-standard.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\checkout.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\coming-soon.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\compare.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\contact.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\error.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\faq.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\home-category.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\home-classic.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\home-grid.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\home-standard.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\index.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\invoice.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\main.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\orderlist.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\privacy.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\product-details.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\product-grid.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\profile.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\user-form.css" />
+    <Content Include="wwwroot\wwwroot_main\css\custom\wishlist.css" />
+    <Content Include="wwwroot\wwwroot_main\css\vendor\bootstrap.min.css" />
+    <Content Include="wwwroot\wwwroot_main\css\vendor\nice-select.min.css" />
+    <Content Include="wwwroot\wwwroot_main\css\vendor\slick.min.css" />
+    <Content Include="wwwroot\wwwroot_main\css\vendor\venobox.min.css" />
+    <Content Include="wwwroot\wwwroot_main\fonts\flaticon\flaticon.css" />
+    <Content Include="wwwroot\wwwroot_main\fonts\flaticon\Flaticon.svg" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-brands-400.svg" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-regular-400.svg" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-solid-900.svg" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fontawesome.min.css" />
+    <Content Include="wwwroot\wwwroot_main\fonts\icofont\icofont.min.css" />
+    <Content Include="wwwroot\wwwroot_main\images\about\01.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\about\02.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\about\03.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\about\04.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\app-store.png" />
+    <Content Include="wwwroot\wwwroot_main\images\avatar\01.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\avatar\02.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\avatar\03.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\avatar\04.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\banner-shape.png" />
+    <Content Include="wwwroot\wwwroot_main\images\blog-widget\01.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\blog-widget\02.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\blog-widget\03.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\blog-widget\04.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\blog-widget\05.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\blog\01.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\blog\02.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\blog\03.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\blog\04.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\blog\05.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\blog\06.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\blog\07.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\blog\08.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\branch\01.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\branch\02.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\branch\03.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\branch\04.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\brand\01.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\brand\02.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\brand\03.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\brand\04.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\brand\05.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\brand\06.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\category\dairy.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\category\drinks.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\category\fish.jpg" />
+    <Content Include="wwwroot\wwwroot_main\images\category\groceries.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -101,18 +174,40 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_Layout_main.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="wwwroot\wwwroot_main\fonts\flaticon\Flaticon.eot" />
+    <Content Include="wwwroot\wwwroot_main\fonts\flaticon\Flaticon.ttf" />
+    <Content Include="wwwroot\wwwroot_main\fonts\flaticon\Flaticon.woff" />
+    <Content Include="wwwroot\wwwroot_main\fonts\flaticon\Flaticon.woff2" />
+    <Content Include="wwwroot\wwwroot_main\fonts\flaticon\Flaticond41d.eot" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-brands-400.eot" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-brands-400.ttf" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-brands-400.woff" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-brands-400.woff2" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-brands-400d41d.eot" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-regular-400.eot" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-regular-400.ttf" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-regular-400.woff" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-regular-400.woff2" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-regular-400d41d.eot" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-solid-900.eot" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-solid-900.ttf" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-solid-900.woff" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-solid-900.woff2" />
+    <Content Include="wwwroot\wwwroot_main\fonts\fontawesome\fa-solid-900d41d.eot" />
+    <Content Include="wwwroot\wwwroot_main\fonts\icofont\icofont.woff" />
+    <Content Include="wwwroot\wwwroot_main\fonts\icofont\icofont.woff2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="wwwroot\wwwroot_main\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
