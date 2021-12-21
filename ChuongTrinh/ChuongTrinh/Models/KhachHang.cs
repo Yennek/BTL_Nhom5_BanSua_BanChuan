@@ -12,7 +12,6 @@ namespace ChuongTrinh.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public KhachHang()
         {
-            ChinhSachUuDais = new HashSet<ChinhSachUuDai>();
             HoaDons = new HashSet<HoaDon>();
             TaiKhoans = new HashSet<TaiKhoan>();
         }
@@ -42,9 +41,6 @@ namespace ChuongTrinh.Models
         [Required]
         [StringLength(200)]
         public string DiaChi { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<ChinhSachUuDai> ChinhSachUuDais { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<HoaDon> HoaDons { get; set; }

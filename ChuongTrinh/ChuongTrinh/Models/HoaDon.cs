@@ -33,18 +33,12 @@ namespace ChuongTrinh.Models
         [StringLength(200)]
         public string GhiChu { get; set; }
 
-        [Required]
-        [StringLength(10)]
-        public string MaCSUD { get; set; }
-
         [Column(TypeName = "money")]
         public decimal? TongTien { get; set; }
 
         [Required]
         [StringLength(10)]
         public string MaNV { get; set; }
-
-        public virtual ChinhSachUuDai ChinhSachUuDai { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ChiTietHoaDon> ChiTietHoaDons { get; set; }

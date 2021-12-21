@@ -65,8 +65,12 @@ F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\System.W
 F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\System.Web.Helpers.xml
 F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\System.Web.Mvc.xml
 F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\obj\Debug\ChuongTrinh.csproj.AssemblyReference.cache
 F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\obj\Debug\ChuongTrinh.csproj.CoreCompileInputs.cache
 F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\obj\Debug\ChuongTrinh.csproj.CopyComplete
 F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\obj\Debug\ChuongTrinh.dll
 F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\obj\Debug\ChuongTrinh.pdb
+F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\EntityFramework.dll
+F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\EntityFramework.SqlServer.dll
+F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\EntityFramework.xml
+F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\EntityFramework.SqlServer.xml
+F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\obj\Debug\ChuongTrinh.csproj.AssemblyReference.cache
