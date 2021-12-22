@@ -3062,11 +3062,11 @@ tbody tr td:last-child {
   padding: 20px 0px;
 }
 .header-logo {
-  margin-right: 50px;
+  margin-right: 0px;
 }
 .header-logo img {
-  width: auto;
-  height: 50px;
+  width: 90%;
+  height: 90%;
 }
 .header-widget-group {
   display: flex;

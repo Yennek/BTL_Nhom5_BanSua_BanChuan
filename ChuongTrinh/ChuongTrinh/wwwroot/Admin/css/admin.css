@@ -2328,8 +2328,8 @@ html.menu-opened body {
   justify-content: center;
 }
 .sidebar-logo img {
-  max-height: 46px;
-  width: auto;
+  height: 100%;
+  width: 100%;
 }
 .pricing-box .pricing-selected .card {
   background-color: #119744;

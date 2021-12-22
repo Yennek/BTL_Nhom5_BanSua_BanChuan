@@ -14,7 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ChuongTrinh</RootNamespace>
     <AssemblyName>ChuongTrinh</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort>44379</IISExpressSSLPort>
@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -51,6 +52,7 @@
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
@@ -59,16 +61,14 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Web.Razor">
@@ -126,9 +126,8 @@
     <Content Include="wwwroot\Admin\img\customer\user-10.jpg" />
     <Content Include="wwwroot\Admin\img\favicon.png" />
     <Content Include="wwwroot\Admin\img\img-01.jpg" />
-    <Content Include="wwwroot\Admin\img\logo-icon.png" />
-    <Content Include="wwwroot\Admin\img\logo.png" />
     <Content Include="wwwroot\Admin\img\product\product-01.jpg" />
+    <Content Include="wwwroot\Admin\img\profiles\Anhuser.jpg" />
     <Content Include="wwwroot\Admin\img\profiles\avatar-02.jpg" />
     <Content Include="wwwroot\Admin\img\profiles\avatar-03.jpg" />
     <Content Include="wwwroot\Admin\img\profiles\avatar-04.jpg" />
@@ -140,6 +139,7 @@
     <Content Include="wwwroot\Admin\img\profiles\avatar-10.jpg" />
     <Content Include="wwwroot\Admin\img\profiles\avatar-11.jpg" />
     <Content Include="wwwroot\Admin\img\profiles\avatar-12.jpg" />
+    <Content Include="wwwroot\Admin\img\profiles\logo.PNG" />
     <Content Include="wwwroot\Admin\img\provider\provider-01.jpg" />
     <Content Include="wwwroot\Admin\img\provider\provider-02.jpg" />
     <Content Include="wwwroot\Admin\img\provider\provider-03.jpg" />
@@ -255,6 +255,7 @@
     <Content Include="wwwroot\Client\images\about\02.jpg" />
     <Content Include="wwwroot\Client\images\about\03.jpg" />
     <Content Include="wwwroot\Client\images\about\04.jpg" />
+    <Content Include="wwwroot\Client\images\Anhuser.jpg" />
     <Content Include="wwwroot\Client\images\app-store.png" />
     <Content Include="wwwroot\Client\images\avatar\01.jpg" />
     <Content Include="wwwroot\Client\images\avatar\02.jpg" />
@@ -312,6 +313,8 @@
     <Content Include="Views\Shared\_Layout_Admin.cshtml" />
     <Content Include="Views\Shared\_Layout_Client.cshtml" />
     <Content Include="Views\Main\Main.cshtml" />
+    <Content Include="Views\Main\Admin.cshtml" />
+    <Content Include="Views\Main\AdminMain.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -367,6 +370,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\MainAdmin\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
