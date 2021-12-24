@@ -73,7 +73,6 @@ F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\EntityFr
 F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\EntityFramework.SqlServer.dll
 F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\EntityFramework.xml
 F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\EntityFramework.SqlServer.xml
-F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\obj\Debug\ChuongTrinh.csproj.AssemblyReference.cache
 E:\Huong\BTL_ASP\NHOM5_BTL_ASP_BANCHUAN\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\ChuongTrinh.dll.config
 E:\Huong\BTL_ASP\NHOM5_BTL_ASP_BANCHUAN\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\ChuongTrinh.dll
 E:\Huong\BTL_ASP\NHOM5_BTL_ASP_BANCHUAN\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\ChuongTrinh.pdb
@@ -150,3 +149,8 @@ E:\Huong\BTL_ASP\NHOM5_BTL_ASP_BANCHUAN\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\Ch
 E:\Huong\BTL_ASP\NHOM5_BTL_ASP_BANCHUAN\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\obj\Debug\ChuongTrinh.csproj.CopyComplete
 E:\Huong\BTL_ASP\NHOM5_BTL_ASP_BANCHUAN\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\obj\Debug\ChuongTrinh.dll
 E:\Huong\BTL_ASP\NHOM5_BTL_ASP_BANCHUAN\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\obj\Debug\ChuongTrinh.pdb
+F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\PagedList.dll
+F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\PagedList.Mvc.dll
+F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\PagedList.xml
+F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\bin\PagedList.Mvc.xml
+F:\Asp\BTL_BanSua\BTL_Nhom5_BanSua_BanChuan\ChuongTrinh\ChuongTrinh\obj\Debug\ChuongTrinh.csproj.AssemblyReference.cache

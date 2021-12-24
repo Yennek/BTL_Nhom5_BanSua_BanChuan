@@ -8,7 +8,7 @@ namespace ChuongTrinh.Models
     public partial class QuanLyBanHangDB : DbContext
     {
         public QuanLyBanHangDB()
-            : base("name=QuanLyBanHangDB2")
+            : base("name=QuanLyBanHangDB")
         {
         }
 
